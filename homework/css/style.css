@@ -2,3 +2,45 @@ body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 18px;
 }
+
+
+
+/* making divs go next lines depending on their width */ 
+/* .articles{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.articles > article{
+  flex-basis: 30%;
+} */
+
+
+
+/* functionality for creating triangle on hover */ 
+/* basic triangle */ 
+/* .triangle{
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  
+  border-left: 60px solid green;
+  transform: rotate(-45deg);
+}
+
+.around{
+  background-color: #000;
+}
+.trianle{
+width: 0; 
+height: 0; 
+
+}
+.around:hover .trianle{
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  
+  border-left: 60px solid rgb(62, 0, 128);
+  transform: rotate(-45deg);
+} */
