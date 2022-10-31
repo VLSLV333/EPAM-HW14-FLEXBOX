@@ -1,9 +1,17 @@
+html{
+  background-color: #f4f4f4;
+}
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 18px;
+  /* max-width: 1400px;
+  margin: auto; */
 }
 a{
   text-decoration: none;
+}
+figure{
+  margin: 0;
 }
 .star{
   color:red;
@@ -15,6 +23,25 @@ a{
 }
 .adv_plan:hover .invisible{
   visibility: visible;
+}
+.v{
+  background-color: yellowgreen;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  max-width: 800px;
+  margin: auto;
+}
+.container_child{
+  flex-basis: 50%;
+  height: 400px;
+  width: 200px;
+}
+.small{
+  height: 100%;
+  width: 100%;
 }
 .cube_four{
   background-color: aquamarine;
