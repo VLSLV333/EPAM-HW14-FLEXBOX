@@ -2,8 +2,54 @@ body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 18px;
 }
-
-
+a{
+  text-decoration: none;
+}
+.star{
+  color:red;
+  font-weight: 900;
+}
+.invisible{
+  visibility: hidden;
+  font-size: 0.7rem;
+}
+.adv_plan:hover .invisible{
+  visibility: visible;
+}
+.cube_four{
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero{
+  width: 200px;
+  height: 200px;
+}
+.hero img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+footer h2{
+  background-color: aqua;
+  height: 170px;
+  margin-bottom: -40px;
+  position: relative;
+}
+form{
+  background-color: rebeccapurple;
+  max-width: 500px;
+  margin-bottom: -40px;
+  z-index: 2;
+  position: relative;
+}
+.footer_bot{
+  background-color: lightcoral;
+  padding-top: 60px;
+  position: relative;
+}
 
 /* making divs go next lines depending on their width */ 
 /* .articles{
